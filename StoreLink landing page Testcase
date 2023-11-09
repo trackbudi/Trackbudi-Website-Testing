@@ -1,0 +1,32 @@
+Test Case 1: User Login
+
+Test Case Title: User Login
+
+Test Case ID: User login FT-001
+
+Description: Verify that users can login successfully.
+
+Preconditions:
+The application is installed and launched.
+The user is on the login screen on the profile page.
+
+Test Steps:
+Signup Option
+Phone Number
+Enter a valid user phone number that is registered
+Enter the valid OTP code sent to your provided phone number or email
+click request again if you did not find the code or it has expired
+The user get logs in
+
+
+Email 
+Click on sign in with email
+Enter valid email
+enter password
+The user get logs in
+
+Expected Results:
+The user should be able to login to the application successfully.
+
+Actual Result: 
+The user is able to login to the application successfully.
