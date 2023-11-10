@@ -1,0 +1,28 @@
+Test Case 3:Order detail page (Purchase Now)
+
+Test Case Title: Order detail page (Purchase Now)
+Test Case ID: Order detail page (Purchase Now) FT-03
+
+Description: Verify that users can add to cart and purchase
+
+Preconditions:
+The seller has posted the products in his store and shared his store link
+the store link in opened on a browser
+User is on the product page
+User clicked Purchase now
+
+Test Steps:
+Verify that you can see the order details
+clink increment to increase product quantity and decrease
+Click add delivery info to add delivery details
+    Add name 
+    Phone number
+    Email address
+    Delivery address and landmark
+Choose delivery options 
+Accept terms and condition
+
+Expected Results:
+The user should be able to increment product quantity, add delivery details and delivery options and accept terms and condition and make payment 
+Actual Result: 
+The user is able to increment product quantity, add delivery details and delivery options and accept terms and condition and make payment
