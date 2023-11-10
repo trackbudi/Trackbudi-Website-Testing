@@ -1,32 +1,28 @@
-Test Case 1: User Login
+Test Case 1:Product page
 
-Test Case Title: User Login
+Test Case Title: Product page
+Test Case ID: Product page FT-001
 
-Test Case ID: User login FT-001
-
-Description: Verify that users can login successfully.
+Description: Verify that users can add to cart and purchase
 
 Preconditions:
-The application is installed and launched.
-The user is on the login screen on the profile page.
+The seller has posted the products in his store and shared his store link
+the store link in opened on a browser
+User is on the product page
 
 Test Steps:
-Signup Option
-Phone Number
-Enter a valid user phone number that is registered
-Enter the valid OTP code sent to your provided phone number or email
-click request again if you did not find the code or it has expired
-The user get logs in
-
-
-Email 
-Click on sign in with email
-Enter valid email
-enter password
-The user get logs in
+Click on the image to view the products
+Swipe between images to view other image
+Click to increase and decrease quantity
+Click select size to see other sizes 
+Click add to cart to add product to cart
+verify to see similar product in that category
+click purchase now to purchase products 
 
 Expected Results:
-The user should be able to login to the application successfully.
-
+The user should be able to Click images, swipe images, increase and decrease quantity, select sizes, see similar product, 
+purchase product and add to cart
 Actual Result: 
-The user is able to login to the application successfully.
+The user is able to Click images (clicked image cant swipe), swipe images, increase and decrease quantity(increasing or decreasing highlights text), 
+select sizes, see similar product, 
+purchase product and add to cart(cart increment is by number of product quantity)
