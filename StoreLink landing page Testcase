@@ -1,32 +1,23 @@
-Test Case 1: User Login
+Test Case 1:StoreLink landing page
 
-Test Case Title: User Login
+Test Case Title: StoreLink landing page
 
-Test Case ID: User login FT-001
+Test Case ID: StoreLink landing pageFT-001
 
-Description: Verify that users can login successfully.
+Description: Verify that users can open a store link and see products posted by the seller.
 
 Preconditions:
-The application is installed and launched.
-The user is on the login screen on the profile page.
+The seller has posted the products in his store and shared his store link
+the store link in opened on a browser
 
 Test Steps:
-Signup Option
-Phone Number
-Enter a valid user phone number that is registered
-Enter the valid OTP code sent to your provided phone number or email
-click request again if you did not find the code or it has expired
-The user get logs in
+Open the store link on a web browser 
+Verify you can see posted products and click them
+Verify you can see recently viewed products
+Verif you can see the cart, search bar and categories baf
 
-
-Email 
-Click on sign in with email
-Enter valid email
-enter password
-The user get logs in
 
 Expected Results:
-The user should be able to login to the application successfully.
-
+The user should be able to open store link and see all these features
 Actual Result: 
-The user is able to login to the application successfully.
+The user is able to open store link and see all these features
